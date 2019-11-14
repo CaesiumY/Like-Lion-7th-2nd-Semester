@@ -121,5 +121,9 @@ dmypy.json
 
 # Virtual Environment
 myvenv/
+settings.json
+
+## Secret Key
+tokens.json
 
 # End of https://www.gitignore.io/api/django
