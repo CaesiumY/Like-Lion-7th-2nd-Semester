@@ -1,2 +1,9 @@
-# Like-Lion-7th-2nd-Semester
-🦁멋쟁이 사자처럼 7기 2학기 (React + django) 강의 자료🏷
+# 🦁멋쟁이 사자처럼 7기 2학기 (django) 강의 자료🏷
+
+## 📚 < django REST Framwork 수업 자료 >
+
+[[Week 1]](https://github.com/CaesiumY/Like-Lion-7th-2nd-Semester/tree/master/1_CBV)<br/>
+1주차 - 1.JSON   **[완료]**<br/>
+1주차 - 2.Http Request & Response **[완료]**<br/>
+1주차 - 2.5 httpie **[완료]**<br/>
+1주차 - 3.CBV **[완료]**<br/>
