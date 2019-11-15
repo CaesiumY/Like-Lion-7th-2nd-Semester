@@ -8,7 +8,7 @@
   <body>
     <a href="{% url 'create' %}">추가하기</a>
 
-    {% for blog in object_list %}
+    {% for blog in blog_list %}
     <h2>{{blog.title}}</h2>
     <h5>{{blog.created_at}}</h5>
     <p>{{blog.body}}</p>

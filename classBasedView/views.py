@@ -13,6 +13,8 @@ from .models import ClassBlog
 
 class BlogView(ListView):
     model = ClassBlog
+    template_name = 'classBasedView/list.html'
+    context_object_name = 'blog_list'
 
 
 class BlogCreate(CreateView):
