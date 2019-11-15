@@ -7,3 +7,9 @@
 1주차 - 2.Http Request & Response **[완료]**<br/>
 1주차 - 2.5 httpie **[완료]**<br/>
 1주차 - 3.CBV **[완료]**<br/>
+
+[[Week 2]]()<br/>
+2주차 - 4.REST Architecture **[완료]**<br/>
+2주차 - 5.JSON 직렬화 - Serializer **[완료]**<br/>
+2주차 - 5. Serializer 실습 - 코드작성 **[진행중]** <br/>
+2주차 - 5. Serializer 실습 - API 서버 들여다보기 <br/>
