@@ -15,8 +15,10 @@
 2주차 - 5. Serializer 실습 - API 서버 들여다보기 **[완료]** <br/>
 
 [[Week 3. viewset & router]]()<br/>
-3주차 - 6. View of DRF <br/>
-3주차 - 7. APIView <br/>
+3주차 - 6. View of DRF **[완료]**<br/>
+3주차 - 7. APIView [**[완료]**](https://github.com/CaesiumY/vue-django-stagram/blob/master/todolist/todos/views.py)<br/>
+- > 다른 프로젝트에서 사용한 적이 있어서 그곳으로 리다이렉트
+
 3주차 - 8. mixins <br/>
 3주차 - 9. generic CBV <br/>
 3주차 - 10. ViewSet <br/>
