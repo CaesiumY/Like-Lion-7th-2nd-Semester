@@ -1,5 +1,7 @@
 # 🦁멋쟁이 사자처럼 7기 2학기 (django) 강의 자료🏷
 
+## Heroku deploy 브랜치
+
 ## 📚 < django REST Framwork 수업 자료 >
 
 [[Week 1. 준비운동]](https://github.com/CaesiumY/Like-Lion-7th-2nd-Semester/tree/master/1_CBV)<br/>
@@ -23,3 +25,4 @@
 3주차 - 9. generic CBV <br/>
 3주차 - 10. ViewSet <br/>
 3주차 - 11. Router <br/>
+
