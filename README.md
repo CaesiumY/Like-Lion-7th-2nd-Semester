@@ -23,3 +23,9 @@
 3주차 - 9. generic CBV <br/>
 3주차 - 10. ViewSet <br/>
 3주차 - 11. Router <br/>
+
+
+## 🍦django로 만드는 포트폴리오 랜딩 페이지
+
+- [코드](https://github.com/CaesiumY/Like-Lion-7th-2nd-Semester/tree/master/portfolio)<br/>
+- [배포](https://mutsa-portfolio.herokuapp.com/)
