@@ -3,7 +3,7 @@
 ## 📚 < django REST Framwork 수업 자료 >
 
 [[Week 1. 준비운동]](https://github.com/CaesiumY/Like-Lion-7th-2nd-Semester/tree/master/1_CBV)<br/>
-1주차 - 1. JSON   **[완료]**<br/>
+1주차 - 1. JSON **[완료]**<br/>
 1주차 - 2. Http Request & Response **[완료]**<br/>
 1주차 - 2.5 httpie **[완료]**<br/>
 1주차 - 3. CBV **[완료]**<br/>
@@ -17,13 +17,13 @@
 [[Week 3. viewset & router]]()<br/>
 3주차 - 6. View of DRF **[완료]**<br/>
 3주차 - 7. APIView [**[완료]**](https://github.com/CaesiumY/vue-django-stagram/blob/master/todolist/todos/views.py)<br/>
+
 - > 다른 프로젝트에서 사용한 적이 있어서 그곳으로 리다이렉트
 
-3주차 - 8. mixins <br/>
-3주차 - 9. generic CBV <br/>
-3주차 - 10. ViewSet <br/>
-3주차 - 11. Router <br/>
-
+3주차 - 8. mixins **[완료]**<br/>
+3주차 - 9. generic CBV **[완료]**<br/>
+3주차 - 10. ViewSet **[완료]**<br/>
+3주차 - 11. Router **[완료]**<br/>
 
 ## 🍦django로 만드는 포트폴리오 랜딩 페이지
 
