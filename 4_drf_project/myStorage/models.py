@@ -10,7 +10,7 @@ class EssayModel(models.Model):
     body = models.TextField()
 
 
-class Album(models.Model):
+class AlbumModel(models.Model):
     author = models.ForeignKey(
         settings.AUTH_USER_MODEL, default=1, on_delete=models.CASCADE)
 
@@ -18,7 +18,7 @@ class Album(models.Model):
     summary = models.CharField(max_length=100)
 
 
-class File(models.Model):
+class FileModel(models.Model):
     author = models.ForeignKey(
         settings.AUTH_USER_MODEL, default=1, on_delete=models.CASCADE)
     files = models.FileField(blank=False, null=False, upload_to='files')

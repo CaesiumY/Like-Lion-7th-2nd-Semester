@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from .serializers import essaySerializer
-from .models import EssayModel
+from .serializers import essaySerializer, albumSerializer, fileSerializer
+from .models import EssayModel, AlbumModel, FileModel
 from rest_framework.filters import SearchFilter
 # Create your views here.
 
@@ -25,3 +25,19 @@ class essayViewset(viewsets.ModelViewSet):
             qs = qs.none()
 
         return qs
+
+
+class albumViewSet(viewsets.ModelViewSet):
+    queryset = AlbumModel.objects.all()
+    serializer_class = albumSerializer
+
+    def perform_create(self, serializer):
+        serializer.save(auth=self.request.user)
+
+
+class fileViewSet(viewsets.ModelViewSet):
+    queryset = FileModel.objects.all()
+    serializer_class = fileSerializer
+
+    def perform_create(self, serializer):
+        serializer.save(auth=self.request.user)
