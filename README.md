@@ -32,11 +32,13 @@
 4주차 - 15. permission **[완료]** <br/>
 4주차 - 16. token 인증 **[완료]** <br/>
 4주차 - 17. 프로젝트 안내 **[완료]** <br/>
-4주차 - 18. 프로젝트 실습 1 <br/>
-4주차 - 19. 프로젝트 실습 2 <br/>
-4주차 - 20. 종강 <br/>
+4주차 - 18. 프로젝트 실습 1 [**[완료]**](https://github.com/CaesiumY/Like-Lion-7th-2nd-Semester/tree/e8db6c25f2fbbeac370cf88a110e4b6d4d2d17f5)<br/>
+4주차 - 19. 프로젝트 실습 2 [**[완료]**](https://github.com/CaesiumY/Like-Lion-7th-2nd-Semester/tree/ba538666129e9c209b9ea4a87018077590d02589)<br/>
+4주차 - 20. 종강 **[완료]**<br/>
 
 ## 🍦django로 만드는 포트폴리오 랜딩 페이지
 
 - [코드](https://github.com/CaesiumY/Like-Lion-7th-2nd-Semester/tree/master/portfolio)<br/>
-- [배포](https://mutsa-portfolio.herokuapp.com/)
+- [배포(헤로쿠)](https://mutsa-portfolio.herokuapp.com/)
+- [배포(pythonAnywhere)](http://mn0658.pythonanywhere.com/)
+- [메뉴얼(pdf)](https://github.com/CaesiumY/Like-Lion-7th-2nd-Semester/blob/master/docs/%EB%A9%8B%EC%82%AC_7%EA%B8%B0_1205_%EC%A0%84%EC%B2%B4%EC%84%B8%EC%85%98.pdf)
