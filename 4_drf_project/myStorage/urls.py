@@ -5,8 +5,8 @@ import rest_framework.urls
 
 router = DefaultRouter()
 router.register('essay', essayViewset)
-router.register('image', albumViewSet)
-router.register('file', fileViewSet)
+router.register('images', albumViewSet)
+router.register('files', fileViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

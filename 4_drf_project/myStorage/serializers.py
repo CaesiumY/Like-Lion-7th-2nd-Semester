@@ -16,7 +16,7 @@ class albumSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = AlbumModel
-        fields = ('pk', 'images', 'summary', 'author_name')
+        fields = ('pk', 'image', 'summary', 'author_name')
 
 
 class fileSerializer(serializers.ModelSerializer):

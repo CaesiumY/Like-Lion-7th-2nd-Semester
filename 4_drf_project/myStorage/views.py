@@ -1,7 +1,10 @@
+from rest_framework.response import Response
+from rest_framework import status
 from rest_framework import viewsets
 from .serializers import essaySerializer, albumSerializer, fileSerializer
 from .models import EssayModel, AlbumModel, FileModel
 from rest_framework.filters import SearchFilter
+from rest_framework.parsers import MultiPartParser, FormParser
 # Create your views here.
 
 
@@ -38,6 +41,20 @@ class albumViewSet(viewsets.ModelViewSet):
 class fileViewSet(viewsets.ModelViewSet):
     queryset = FileModel.objects.all()
     serializer_class = fileSerializer
+    parser_classes = (MultiPartParser, FormParser)
 
     def perform_create(self, serializer):
         serializer.save(auth=self.request.user)
+
+    def post(self, request, *args, **kwargs):
+        serializer = fileSerializer(data=request.data)
+
+        if serializer.is_valid():
+            serializer.save()
+
+            return Response(serializer.data,
+                            status=status.HTTP_201_CREATED)
+
+        else:
+            return Response(serializer.error,
+                            status=status.HTTP_400_BAD_REQUEST)
