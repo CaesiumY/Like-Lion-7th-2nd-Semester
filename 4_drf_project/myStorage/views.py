@@ -35,7 +35,7 @@ class albumViewSet(viewsets.ModelViewSet):
     serializer_class = albumSerializer
 
     def perform_create(self, serializer):
-        serializer.save(auth=self.request.user)
+        serializer.save(author=self.request.user)
 
 
 class fileViewSet(viewsets.ModelViewSet):
@@ -44,7 +44,7 @@ class fileViewSet(viewsets.ModelViewSet):
     parser_classes = (MultiPartParser, FormParser)
 
     def perform_create(self, serializer):
-        serializer.save(auth=self.request.user)
+        serializer.save(author=self.request.user)
 
     def post(self, request, *args, **kwargs):
         serializer = fileSerializer(data=request.data)
